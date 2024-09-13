@@ -3,9 +3,9 @@
 
 import java.util.*;
 
-public class Atmmachine {
-    public static void main(String []args) {
-        // plugin the card into atm.
+public class Atmmachine { <br>
+    public static void main(String []args) { <br>
+        // plugin the card into atm.<br>
     ATM cardscanned = new ATM();
 
     // when card succesfully scanned by atm then it asks for pin.
@@ -49,14 +49,14 @@ public class Atmmachine {
    
    //Calling the menu of ATM.
 
-  public void menu(){
-        System.out.println("1.Account balance inquiry");
-        System.out.println("2.DEPOSIT MONEY");
-        System.out.println("3.WITHDRAW MONEY");
-        System.out.println("4.CHANGE PIN");
-        System.out.println("5.TRANSACTION HISTORY");
-        System.out.println("6.EXIT");
-        System.out.println("Please Enter your choice:");
+  public void menu(){ <br>
+        System.out.println("1.Account balance inquiry"); <br>
+        System.out.println("2.DEPOSIT MONEY"); <br>
+        System.out.println("3.WITHDRAW MONEY"); <br>
+        System.out.println("4.CHANGE PIN"); <br>
+        System.out.println("5.TRANSACTION HISTORY"); <br>
+        System.out.println("6.EXIT"); <br>
+        System.out.println("Please Enter your choice:"); <br>
 
         Scanner sc = new Scanner(System.in);
         int choice = sc.nextInt(); 
